@@ -1,6 +1,6 @@
 ---
 title: Schizophrenia - 精神分裂症
-date: 2020-02-17 22:58:27
+date: 2012-10-18 19:58:27
 tags: MUSIC
 categories: 黑色膠捲
 toc: false
