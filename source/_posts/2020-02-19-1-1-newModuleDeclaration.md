@@ -13,15 +13,31 @@ toc: true
 <!-- more -->
 
 ### 主要方法
+New Module Declaration
 Module location
+都在app > code 底下
 Module registration
+我們開的folder，主要是namespace and module
+比如 Mastering 是 namespace 
+SampleModule 是 module
 Module versioning and dependency
 
 在Magento 2 所有的檔案
 In magento 2 all files related to a module including code tests configuration and templates should be stored inside a single module directory.
 第一個必要檔案就是 Module 的 registration.php 檔案
-bin/magento dev:urn-catalog:generate .dea/misc.xml
+第二個需要的模組元件就是 xml 檔，將放在etc資料夾底下
+{% img  https://i.imgur.com/VRZDu3S.jpg '"URN highlighter不可識別" "預設PHPStrom 不認得紅色區的文字"' %}
+因為預設像 IDE PHPStrom 不認得紅色區的文字，即 {% link URNs (Uniform Resource Names) https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-urn.html %}，可以透過指令去識得。
+
+{% codeblock first_line:1 %}
+bin/magento dev:urn-catalog:generate .idea/misc.xml
+{% endcodeblock %}
+{% img  https://i.imgur.com/UAXMnPT.jpg '"URN highlighter可識別" "指令下完後，IDE PHPStrom就能識別"' %}
+
+{% codeblock first_line:2 %}
 bin/magento module:enable Mastering_SampleModule
+{% endcodeblock %}
+
 下完之後，就可以在config 裡看到 Module
 bin/magento s:up
 
