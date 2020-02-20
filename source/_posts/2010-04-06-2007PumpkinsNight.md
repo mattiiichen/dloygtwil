@@ -5,12 +5,12 @@ tags: MUSIC
 categories: 黑色膠捲
 toc: false
 ---
-{% asset_img 2007PumpkinsNight01-min.jpg %}
+<img src="https://i.imgur.com/YWvg5YU.jpg" alt="Page 1">
 <!-- more -->
 
 ---
-{% asset_img 2007PumpkinsNight02-min.jpg %}
+<img src="https://i.imgur.com/w2pngcs.jpg" alt="Page 2">
 
 ---
-{% asset_img 2007PumpkinsNight03-min.jpg %}
+<img src="https://i.imgur.com/O7E1Opd.jpg" alt="Page 3">
 

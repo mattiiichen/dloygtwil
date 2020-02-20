@@ -5,7 +5,8 @@ tags: MUSIC
 categories: 黑色膠捲
 toc: false
 ---
-{% asset_img sonicyouthS-min.jpg %}
+<img src="https://i.imgur.com/xAgTWGP.jpg" width="400px" alt="給所有明日的聚會">
+
 昨日是已是數不來的第幾次和陳德政碰面。他講的主題為：「從Velvet Underground到Sonic Youth — 探訪紐約搖滾樂的軌跡」。
 <!-- more -->
 我還記得他多年前剛從國外留學回來在誠品講堂的初來咋到；他生澀，陌生一切，才從紐約吸取大量滿腹的音樂文化回來，時不時的講座上其實都還有冷空的現象。
