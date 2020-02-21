@@ -8,4 +8,4 @@ toc: false
 ---
 
 
-![Don't Let Our Youth Go to Waste](../images/mybanner-min.jpg)
+![Don't Let Our Youth Go to Waste](https://i.imgur.com/OLx2mLu.jpg)
