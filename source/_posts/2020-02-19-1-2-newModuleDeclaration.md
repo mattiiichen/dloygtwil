@@ -76,3 +76,9 @@ php pestle.phar generate_module
 > 3. Version
 
 除了 Pestle，Magento 2 另一個好用工具：n98-magerun2 可參考。
+
+也可以直接全部這樣輸入：
+
+{% codeblock first_line:3 %}
+pestle.phar generate_module Pulsestorm RequireJsTutorial 0.0.1
+{% endcodeblock %}
