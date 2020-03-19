@@ -24,7 +24,7 @@ Controller 建立之後要先建立路由
 記得Backend area 是Adminhtml folder
 
 
-{% codeblock first_line:1 當每次更改 XML 檔時，一定要跑的指令，因為 XML 檔案會被 Magento 2 Cache 住。 %}
+{% codeblock first_line:1 所有 Magento XML file 都會被 Cache 到 Magento 2 裡，所以當有更動任何 XML files，都需要 flush cache %}
 bin/magento c:f
 {% endcodeblock %}
 
@@ -38,3 +38,9 @@ Mastering/SampleModule/Controller/Adminhtml/Index/Index.php
     class Index extends \Magento\Backend\App\Action
 Mastering/SampleModule/Controller/Index/Index.php
     class Index extends \Magento\Framework\App\Action\Action
+    
+    route front Name 即是前台在 Url 後接的名字，直接後方接/mastering 
+    mastering 即是 route name 可以直接導過去。   
+    app/code/Mastering/SampleModule/etc/frontend/routes.xml
+    
+    同樣的後台也是接在 admin/mastering 後面，就會透過 route 導到過去
