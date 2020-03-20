@@ -36,8 +36,8 @@ app/etc/di.xml
         </argument>
     </arguments>
 </virtualType>
-{% endcodeblock %}
 
+{% endcodeblock %}
 虛擬 Type 會 base 在基本的 Magento\Framework\Logger\Monolog
 而不一樣的是 Argument
 

@@ -51,6 +51,12 @@ bin/magento s:up
 {% codeblock lang:sql first_line:4 %}
 select * from setup_module where module ='Mastering_SampleModule';
 {% endcodeblock %}
+
+{% colorquote danger %}
+有時候一個 module 會需要重新 disable 再 enable ，功能才會生效(或是才會產生檔案)。所以新建 module 時要注意到這個，很重要。
+{% endcolorquote %}
+
+
 ---
 
 #### Pestle的使用
