@@ -27,3 +27,10 @@ Controller\Adminhtml\index\index.php
 /Users/mattchen/Projects/magento2/vendor/magento/framework/View/Layout/Element.php
 
 Rendering Grids
+
+
+16. Extending UI Components
+bin/magento cache:flush
+再執行 bin/magento setup:upgrade
+setup:upgrade 好像已經有Cache cleared successfully
+和cache:flush 有甚麼差別嗎？

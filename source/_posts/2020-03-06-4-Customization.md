@@ -43,6 +43,7 @@ app/etc/di.xml
 
 
 #### 4.2 Plugins and observers
+不是所有的magneto 功能都可用event cover到，所以就有一個另一個客製的引擎為Pluging
 #### 4.3 Layout configuration
 #### 4.4 JavaScript customization
 
