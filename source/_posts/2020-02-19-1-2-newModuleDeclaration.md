@@ -9,15 +9,15 @@ toc: true
 <!-- more -->
 
 ---
-#### Module location
+### Module location
 都放在
 > app > code 
 ---
-#### Module registration
+### Module registration
 我們開的folder，依階層來說，主要是namespace and module，比如 Mastering 是 namespace；SampleModule 是 module
 
 ---
-#### Module versioning and dependency
+### Module versioning and dependency
 
 <!-- 在Magento 2 所有的檔案
 In magento 2 all files related to a module including code tests configuration and templates should be stored inside a single module directory.
@@ -59,7 +59,7 @@ select * from setup_module where module ='Mastering_SampleModule';
 
 ---
 
-#### Pestle的使用
+### Pestle的使用
 Pestle 中文翻譯為「杵」，像是磨藥的搗棒，延伸為是 Magento 2 程式碼生成的命令指令集。
 官方主要的解譯為：
 > A collection of command line scripts for Magento 2 code generation, and a PHP module system for organizing command line scripts.
